@@ -1,0 +1,12 @@
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\bin\Debug\SelfSignedNancy.exe.config
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\bin\Debug\SelfSignedNancy.exe
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\bin\Debug\SelfSignedNancy.pdb
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\bin\Debug\Nancy.dll
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\bin\Debug\Nancy.Hosting.Self.dll
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\bin\Debug\Nancy.xml
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\bin\Debug\Nancy.Hosting.Self.xml
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\obj\Debug\SelfSignedNancy.csprojAssemblyReference.cache
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\obj\Debug\SelfSignedNancy.csproj.CoreCompileInputs.cache
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\obj\Debug\SelfSignedNancy.csproj.CopyComplete
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\obj\Debug\SelfSignedNancy.exe
+C:\Users\saroj\source\repos\SelfSignedNancy\SelfSignedNancy\obj\Debug\SelfSignedNancy.pdb
