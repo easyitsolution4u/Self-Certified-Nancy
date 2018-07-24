@@ -1,0 +1,36 @@
+
+--- STEP 1
+netsh http add urlacl url="https://+:12349/" user="Everyone"   
+
+
+-- Command to undo step 1 
+netsh http delete urlacl url=http://+:12349/
+
+
+---STEP 3
+Make Cert Command to create certifying authority
+
+
+makecert -pe -n "CN=Test And Dev Root Authority" -ss my -sr LocalMachine -a sha1 -sky signature -r "Test And Dev Root Authority.cer"
+
+
+--- STEP 4
+Create Certificate signed by Test and Dev Root Authority:
+
+makecert -pe -n "CN=DESKTOP-R3KM2BO" -ss my -sr LocalMachine -a sha1 -sky exchange -eku 1.3.6.1.5.5.7.3.1 -in "Test And Dev Root Authority" -is MY -ir LocalMachine -sp "Microsoft RSA SChannel Cryptographic Provider" -sy 12 DESKTOP-R3KM2BO
+
+
+
+----STEP 5 : Get the finger print has from the MMC
+Get The FingerPrint Hash
+90fb128eb55a3b83c7fc1db0d5c422a1ac57de03
+
+
+---STEP 6
+-- Add the Certicate to the site:
+netsh http add sslcert ipport=0.0.0.0:12349 certhash=90fb128eb55a3b83c7fc1db0d5c422a1ac57de03 appid={A0DEC7A4-CF28-42FD-9B85-AFFDDD4FDD0F} clientcertnegotiation=enable
+
+
+
+
+
